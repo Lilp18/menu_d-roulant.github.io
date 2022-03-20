@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div div:first-child {
+            height: 39px;
+        }
+
+        div:nth-child(2) {
+            width: 92px;
+            border-right: solid 1px;
+            color: rgb(189, 188, 188);
+            text-indent: 5px;
+        }
+
+        h1 {
+            border-bottom: solid 1px;
+            color: rgb(165, 165, 165);
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            color: blue;
+            width: 92px;
+        }
+
+        li {
+            height: 25px;
+        }
+
+        li:hover {
+            background-color: rgb(235, 187, 187);
+        }
+
+        li>ul {
+            display: none;
+            position: absolute;
+            left: 100px;
+            width: 95px;
+            text-indent: 5px;
+        }
+
+        li:hover ul {
+            display: block;
+            margin-top: -18px;
+        }
+
+        li.clair:hover {
+            background-color: rgb(255, 226, 226);
+        }
+
+        p {
+            color: rgb(206, 205, 205);
+            margin-left: 160px;
+            position:absolute;
+            top: 65px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Le pont mirabeau</h1>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li class="clair">Services
+                    <ul>
+                        <li>Strategy</li>
+                        <li>Optimization</li>
+                    </ul>
+                </li>
+                <li class="clair">Publication
+                    <ul>
+                        <li>Articles</li>
+                        <li>Tutorials</li>
+                    </ul>
+                </li>
+                <li>Events</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+            <p>
+
+                Sous le pont Mirabeau coule la Seine
+                Et nos amours
+                Faut-il qu’il m’en souvienne
+                La joie venait toujours après la peine
+                Vienne la nuit sonne l’heure
+                Les jours s’en vont je demeure
+                Les mains dans les mains restons face à face
+                Tandis que sous
+                Le pont de nos bras passe
+                Des éternels regards l’onde si lasse
+                Vienne la nuit sonne l’heure
+                Les jours s’en vont je demeure
+                L’amour s’en va comme cette eau courante
+                L’amour s’en va
+                Comme la vie est lente
+                Et comme l’Espérance est violente
+                Vienne la nuit sonne l’heure
+                Les jours s’en vont je demeure
+                Passent les jours et passent les semaines
+                Ni temps passé
+                Ni les amours reviennent
+                Sous le pont Mirabeau coule la Seine
+                Vienne la nuit sonne l’heure
+                Les jours s’en vont je demeure
+                Guillaume Apollinaire, Alcools, 1913
+            </p>
+    </div>
+</body>
+
+</html>
